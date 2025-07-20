@@ -9,28 +9,38 @@ void main() {
 
   /// Relational expressions:
   /// 2 > 1 result: true
-  /// 1 > 2 result: false
-  /// 2 >= 1 result: true
-  /// 1 >= 2 result: false
-  /// 1 < 2 result: true
-  /// 2 < 1 result: false
-  /// 1 <= 2 result: true
-  /// 2 <= 1 result: false
-  /// 1 == 1 result: true
-  /// 1 == 2 result: false
-  /// 1 != 2 result: true
-  /// 1 != 1 result: false
-
   print(2 > 1);
+
+  /// 1 > 2 result: false
   print(1 > 2);
+
+  /// 2 >= 1 result: true
   print(2 >= 1);
+
+  /// 1 >= 2 result: false
   print(1 >= 2);
+
+  /// 1 < 2 result: true
   print(1 < 2);
+
+  /// 2 < 1 result: false
   print(2 < 1);
+
+  /// 1 <= 2 result: true
   print(1 <= 2);
+
+  /// 2 <= 1 result: false
   print(2 <= 1);
+
+  /// 1 == 1 result: true
   print(1 == 1);
+
+  /// 1 == 2 result: false
   print(1 == 2);
+
+  /// 1 != 2 result: true
   print(1 != 2);
+
+  /// 1 != 1 result: false
   print(1 != 1);
 }
